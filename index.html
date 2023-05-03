@@ -1,24 +1,66 @@
 <!DOCTYPE html>
 
-<html>
+<html data-bs-theme="dark">
 <head>
 <title>Patrick's Portfolio</title>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+<link rel="stylesheet" href="index.css">
 </head>
 
 <body>
-<h1 class="text-center me-5 pe-5">Welcome to my portfolio!</h1>
+<h1 class="text-center me-5 pe-5">Patrick Abbey's Portfolio</h1>
 <h2 class="text-body-secondary text-center ms-5 ps-5">Here's a few of my projects</h2>
+<div class="contact">
+  <a href="mailto:thetwelthdimension@gmail.com">thetwelthdimension@gmail.com</a> &nbsp;
+  <a href="https://www.linkedin.com/in/patrick-abbey-b32b7b233/">Visit My LinkedIn</a>  
+</div>
+</div>
 
-<span></span>
+<hr/>
 
 <div class="container text-center">
   <div class="row align-items-start">
     <div class="col">
-      One of two
+      <div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/1823753e516b4a65a304dea05373ee06" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     </div>
     <div class="col">
-      One of two
+      <h3>Backing Tracker Application</h3>
+	  <p>A few years ago, the local musician, who I help run a <a href="jamalong.org">Wordpress music lesson site</a>, wanted to make a web app that allows a subscribed user to build their own backing tracks that they can listen and play along to. Initial design was done by me and a colleage, but after he left I built the rest myself. 
+	  We learned and ended up using an open-source Javascript platform, <a href="https://www.meteor.com/">MeteorJs (or just 'Meteor')</a>, to create a responsive Javascript web application.</p> 
+	  <p><b>Tech Info: </b>User account data is sent over from Wordpress's current login info, and user song data is stored in a Mongo database. Meteor was able to help client-server integration, such as implementing RESTful API and Database for the data storage and transfers. 
+	  In order to deploy it onto the domain we made for it, it was bundled into a Node.js application, and ran it on a <a href="https://www.phusionpassenger.com/library/walkthroughs/basics/nodejs/fundamental_concepts.html">Phusion Passenger</a> installation.</p>
+    </div>
+  </div>
+</div>
+
+<div class="container text-center">
+  <div class="row align-items-start">
+    <div class="col">
+	  <h3>Computer Game: D.I.D</h3>
+	  <p><a href="https://animationguy.itch.io/did">D.I.D</a> (short for Dissociative Identity Disorder) is a game I helped to create in a summer internship. I was the lead programmer, and I worked alongside four other people I met at the start of the internship, each with different areas of talent. 
+	  In the span of less than 2 weeks, we were introduced to the Unity game engine, worked with Unity veterans who taught us, had mock conferences and meetings, and worked full-time in an office setting to eventually produce this game.</p>
+	  <p><b>What made this experience special?</b> Some guests of various educational sociological backgrounds were called in at the beginning, and part of the challenge of this internship was that each guest presented a social issue idea that they'd like to see implemented in a game, and each individual team had to find a way to incorporate the one assigned to them.
+	  In our case, the social concept was 'implicit bias'. Thus, the puzzle aspect of this game involved piecing different personalities together based on journal entries collected, without making assumptions. Additionally, each personality was intended to allude to the concept of dissassociative identity disorder, 
+	  with the player potentially implicitly attributing each to one person as one might suspect D.I.D. to do. This in turn drew attention to the assumptions we may make about the disorder itself. Also, at the end of the 2 weeks, students from each internship program got to show their final products to all the other students, 
+	  meaning that this game was actually the first video game experience for some people!</p>
+	</div>
+	<div class="col">
+	  <a href="https://animationguy.itch.io/did"><img src="didImage.png" alt="DID picture" class="w-75 imgOverlay"></a><div class="clickable">Visit on Itch.io</div>
+	</div>
+  </div>
+</div>
+
+<div class="container text-center">
+  <div class="row align-items-start">
+    <div class="col">
+      <img src="maze.png" alt="MazeOfUnknownDoom" class="w-100">
+    </div>
+    <div class="col">
+      <h3>Command Line Java Role Playing Game:</h3>
+	  <h3><a href="https://github.com/Groudon-Zora/maze-of-unknown-doom">Maze of Unknown Doom</a></h3>
+	  <p>Aside from messing my way around Game Maker, my first programming experience officially comes from learning Java in my high school senior year. For our midterms, I paired with a fellow student and we created this game concept and code.
+	  Once the system was in place, we developed some of the story and presented it, to the response of solid approval by our teacher. Eventually, I myself finished the story, patched up some bugs, and implemented more advanced functions such as saving data and starting stat selection.</p>
+	  <p><b>Potential future addition: </b>I may make it more accessible and visually appealing by converting it into a GUI game. I will keep this update should that happen.</p>
     </div>
   </div>
 </div>
